@@ -1,0 +1,74 @@
+
+
+title 
+groovy basics for Java Programmer
+====
+
+One of the easy ways to install groovy is to use sdkman
+Once installation is complete, make sure path has been set, by typing groovy -v
+
+create a file having extension groovy as follows:
+
+one.groovy
+
+class Two
+{
+static void main(String[] args)
+{
+println 'hello'
+println ("hi");
+
+}
+}
+
+
+we can run the file as follows:
+
+groovy one.groovy
+====
+
+the output is 
+hello
+
+=======
+lessons:
+1. semi-colon is optional. In java semi-colon is must to terminate a statement. 
+2. string literal can be in single quotes as well as in double quotes. In Java String literals can only be enclosed in double quotes.
+3. we did not compile the file instead just ran the source code
+4 parentheses is optional when calling a method
+=======
+
+ 
+class Two
+{
+static void main(String[] args)
+{
+int num
+println num
+}
+}
+
+output is 0
+========
+lessons:
+local variable is initialised with default value. In java it is an error
+=========
+
+class Two
+{
+static void main(String[] args)
+{
+
+int k
+
+if(k)
+println 'yes'
+else
+println 'no'
+
+}
+}
+=========
+lessons:
+output is no. 0 and null are considered as false and non-zero and not null values are considered as true
+=========
